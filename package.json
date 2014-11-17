@@ -1,0 +1,11 @@
+{
+  "name": "downsert",
+  "version": "0.1.0",
+  "description": "Get or create a property on an object utility function",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mick van Gelderen",
+  "license": "ISC"
+}
