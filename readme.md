@@ -4,7 +4,7 @@ I found myself using this style quite often when extending objects so now it's a
 
 example:
 
-```
+```js
 var data = dataByCustomerId[customer.id];
 if (!data) {
     data = dataByCustomerId[customer.id] = [];
@@ -15,7 +15,7 @@ return data;
 
 becomes:
 
-```
+```js
 var data = downsert(dataByCustomerId, customer.id, []);
 data.newField = 42;
 return data;
